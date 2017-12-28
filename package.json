@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "precommit": "npm test",
+    "prepush": "",
     "test": "mocha",
     "test:watch": "mocha --watch"
   },
